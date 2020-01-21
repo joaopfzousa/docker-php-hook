@@ -1,2 +1,12 @@
-<h1>ola mundo</h1>
-<?php echo phpinfo();
+<?php
+
+namespace MeuSistema;
+
+class MinhaClasse
+{
+    public static function imprimirInfo()
+    {
+        echo phpinfo();
+    }
+}
+MinhaClasse::imprimirInfo();
