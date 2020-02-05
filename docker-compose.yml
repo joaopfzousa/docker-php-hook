@@ -13,7 +13,7 @@ services:
   bancodedados:
     image: mariadb:latest
     ports:
-      - 3306:3306
+      - 3309:3309
     environment:
       MYSQL_DATABASE: seu_banco_de_dados
       MYSQL_USER: seu_usuario
